@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policies - EcoScape Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EcoScape Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="employees.html">Our Team</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Our Policies</h2>
+    <h3>Financing</h3>
+    <p>Payment plans available for large landscaping projects.</p>
+    <h3>Delivery</h3>
+    <p>Free delivery of landscaping materials within a 20-mile radius.</p>
+    <h3>Returns</h3>
+    <p>Returns accepted within 30 days of purchase.</p>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoScape Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
