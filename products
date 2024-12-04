@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - EcoScape Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EcoScape Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="employees.html">Our Team</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Our Products and Services</h2>
+    <div class="product">
+      <img src="images/service1.jpg" alt="Eco-Friendly Lawn Care">
+      <h3>Eco-Friendly Lawn Care</h3>
+      <p>Using electric mowers and organic fertilizers.</p>
+    </div>
+    <div class="product">
+      <img src="images/service2.jpg" alt="Native Plant Landscaping">
+      <h3>Native Plant Landscaping</h3>
+      <p>Promoting biodiversity with local plants.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoScape Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
