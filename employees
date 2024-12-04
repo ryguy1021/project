@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team - EcoScape Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EcoScape Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="employees.html">Our Team</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Our Team</h2>
+    <div class="employee">
+      <img src="images/emily.jpg" alt="Emily Green">
+      <h3>Emily Green</h3>
+      <p>Title: CEO & Founder</p>
+      <p>Years at EcoScape: 10</p>
+      <p>Phone Extension: 101</p>
+    </div>
+    <div class="employee">
+      <img src="images/john.jpg" alt="John Woods">
+      <h3>John Woods</h3>
+      <p>Title: Lead Landscaper</p>
+      <p>Years at EcoScape: 8</p>
+      <p>Phone Extension: 102</p>
+    </div>
+    <div class="employee">
+      <img src="images/sarah.jpg" alt="Sarah Bloom">
+      <h3>Sarah Bloom</h3>
+      <p>Title: Customer Care Specialist</p>
+      <p>Years at EcoScape: 5</p>
+      <p>Phone Extension: 103</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoScape Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
