@@ -33,3 +33,41 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
+main {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: #4CAF50;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+iframe {
+  border: none;
+  margin: 20px 0;
+}
+
