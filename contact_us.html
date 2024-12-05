@@ -1,11 +1,89 @@
-<main>
-  <h2>Contact Us</h2>
-  <iframe src="https://www.google.com/maps/embed?pb=[Your Google Maps Embed Code]" width="600" height="450"></iframe>
-  <section>
-    <h3>Corporate Office</h3>
-    <p>Address: [Address]</p>
-    <p>Phone: [Phone]</p>
-    <p>Fax: [Fax]</p>
-    <p>Email: <a href="mailto:email@example.com?subject=Corporate Inquiry">email@example.com</a></p>
-  </section>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - EcoScape Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EcoScape Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="employees.html">Our Team</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Contact Us</h2>
+
+    <!-- Embedded Google Map -->
+    <section>
+      <h3>Find Us</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093745!2d144.95373531531643!3d-37.81627927975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f9f3423f%3A0xb2a89b5178c7e58!2s123%20Green%20Lane!5e0!3m2!1sen!2sus!4v1690994717091!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- Contact Details -->
+    <section>
+      <h3>Corporate Office</h3>
+      <p>Address: 123 Green Lane, EcoCity, EC 98765</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Fax: (123) 456-7891</p>
+      <p>Email: <a href="mailto:corporate@ecoscapesolutions.com?subject=Corporate Inquiry">corporate@ecoscapesolutions.com</a></p>
+    </section>
+
+    <!-- Regional Offices -->
+    <section>
+      <h3>Regional Offices</h3>
+      <div>
+        <h4>West Region Office</h4>
+        <p>Address: 456 Solar Drive, Westland, EC 98766</p>
+        <p>Phone: (234) 567-8901</p>
+        <p>Fax: (234) 567-8902</p>
+        <p>Email: <a href="mailto:west@ecoscapesolutions.com?subject=Regional Office Inquiry">west@ecoscapesolutions.com</a></p>
+      </div>
+      <div>
+        <h4>East Region Office</h4>
+        <p>Address: 789 Bloom Street, Eastwood, EC 98767</p>
+        <p>Phone: (345) 678-9012</p>
+        <p>Fax: (345) 678-9013</p>
+        <p>Email: <a href="mailto:east@ecoscapesolutions.com?subject=Regional Office Inquiry">east@ecoscapesolutions.com</a></p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h3>Contact Form</h3>
+      <form action="#" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Social Media Links -->
+    <section>
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/ecoscapesolutions" target="_blank">Facebook</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoScape Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
