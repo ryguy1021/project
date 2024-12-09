@@ -181,6 +181,33 @@ header h1 {
   margin: 0;
   color: white; /* Change title color to white */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better contrast */
+}/* Team Section Styles */
+.team-member {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin: 0;
+  color: #4CAF50;
+}
+
+.team-member p {
+  margin: 5px 0;
+}
+
 
 
